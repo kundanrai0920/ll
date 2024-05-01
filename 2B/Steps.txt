@@ -1,0 +1,17 @@
+# Run these Commands on terminal
+1. mkdir <folder_name>   (make a folder on desktop)
+2. cd <folder_name>      (go to the created folder)
+3. nano DockerFile       (create docker file in the folder and will take you to write the "Hello World !" program)
+
+
+`
+FROM alpine:latest
+CMD echo "Hello World!"
+`
+
+Press ctrl + s
+Press ctrl + x
+
+
+4. sudo docker build -t <folder_name>
+5. docker run <folder_name>

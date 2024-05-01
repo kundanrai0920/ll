@@ -1,0 +1,5 @@
+1. Go to VSCode
+2. Open Folder "Form"
+3. In terminal run following commands 
+	a. npm i    OR     npm install
+	b. npm run start      OR       npm start

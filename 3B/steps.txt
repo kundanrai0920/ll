@@ -1,0 +1,26 @@
+1. open VSCode
+2. open folder "server"
+3. run following commands on terminal
+	a. npm install
+	b. node app.js
+4. go to postman app
+5. create new request with "http://localhost:3000/register" (dont send)
+6. open body/raw (Postman)
+7. chose "JSON"
+8. type
+
+
+`
+{
+    "name" : "Your Name",
+    "address" : "Pune",
+    "contact" : "0123456789",
+    "email" : "example@gmail.com",
+    "password" : "Pass@123"
+}
+`
+
+9. send request
+10. open "http://localhost:3000/users" in any browser
+
+ 
